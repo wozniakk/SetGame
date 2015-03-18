@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SetGame</string>
+
+    <string name="action_new_game">New game</string>
+    <string name="action_about">About</string>
+
+    <string name="label_bad">Bad</string>
+    <string name="label_left">Left</string>
+    <string name="label_good">Good</string>
+
+    <string name="about_alert_title">About</string>
+    <string name="about_alert_text">Kamil Woźniak\n2015</string>
+    <string name="about_alert_close">Close</string>
+
+    <string name="progress_title">Loading game</string>
+    <string name="progress_text">Please wait...</string>
+
+    <string name="toast_good">Good!</string>
+    <string name="toast_bad">Bad.</string>
+    <string name="toast_already_selected">Set already selected.</string>
+
+    <string name="win_title">Congratulations</string>
+    <string name="win_text">You won.</string>
+    <string name="win_ok">OK</string>
+    <string name="win_new_game">New game</string>
+</resources>
+

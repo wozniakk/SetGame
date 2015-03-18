@@ -1,0 +1,214 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:shrinkColumns="0, 1, 2, 3"
+        android:stretchColumns="4">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton0"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton1"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton2"
+                android:layout_column="2"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton3"
+                android:layout_column="3"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/button" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_column="4"
+                android:gravity="top|center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="0"
+                    android:id="@+id/labelGood"
+                    android:textColor="#00FF00"
+                    android:textSize="48sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/label_good"
+                    android:id="@+id/textView8" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton4"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton5"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton6"
+                android:layout_column="2"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton7"
+                android:layout_column="3"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/button" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_column="4"
+                android:gravity="top|center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="0"
+                    android:id="@+id/labelLeft"
+                    android:textSize="48sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/label_left"
+                    android:id="@+id/textView10" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton8"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton9"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton10"
+                android:layout_column="2"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/button" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton11"
+                android:layout_column="3"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/button" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_column="4"
+                android:gravity="top|center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="0"
+                    android:id="@+id/labelBad"
+                    android:textColor="#FF0000"
+                    android:textSize="48sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/label_bad"
+                    android:id="@+id/textView12" />
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>
