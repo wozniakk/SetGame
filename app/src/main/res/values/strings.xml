@@ -2,6 +2,8 @@
     <string name="app_name">SetGame</string>
 
     <string name="action_new_game">New game</string>
+    <string name="action_rules">Game rules</string>
+    <string name="url_rules">http://en.wikipedia.org/wiki/Set_(game)</string>
     <string name="action_about">About</string>
 
     <string name="label_bad">Bad</string>
@@ -24,4 +26,3 @@
     <string name="win_ok">OK</string>
     <string name="win_new_game">New game</string>
 </resources>
-

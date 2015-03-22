@@ -3,6 +3,8 @@ package com.example.kamil.setgame;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -35,10 +37,10 @@ public class MainActivity extends ActionBarActivity {
             imageButtons[i].setOnClickListener(new ImageButton.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    if (((ImageButton) v).isSelected())
-                        ((ImageButton) v).setSelected(false);
+                    if (v.isSelected())
+                        v.setSelected(false);
                     else if (countSelected() < 3)
-                        ((ImageButton) v).setSelected(true);
+                        v.setSelected(true);
 //
                     if (countSelected() == 3) {
                         controller.check(findSelected());
@@ -97,6 +99,13 @@ public class MainActivity extends ActionBarActivity {
 
     public void newGame(MenuItem menuItem) {
         controller.newGame();
+    }
+
+    public void showRules(MenuItem menuItem) {
+
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.url_rules)));
+        startActivity(intent);
+
     }
 
     public void aboutAlert(MenuItem menuItem) {
