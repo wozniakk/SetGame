@@ -9,6 +9,7 @@ import com.example.kamil.setgame.MainActivity;
 /**
  * Created by kamil on 15.03.15.
  */
+@SuppressWarnings("DefaultFileTemplate")
 public class Controller {
 
     private static final int MIN_NUMBER_OF_SETS = 6;
@@ -60,11 +61,8 @@ public class Controller {
 
         LoadGame loader = new LoadGame();
         loader.execute();
+        mainActivity.enableButtons();
 
-    }
-
-    public Game getGame() {
-        return game;
     }
 
     public void check(int[] cardIndexes) {

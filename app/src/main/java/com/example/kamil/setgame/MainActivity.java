@@ -213,6 +213,11 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
+    public void enableButtons() {
+        for (ImageButton imageButton : imageButtons)
+            imageButton.setEnabled(true);
+    }
+
     public void disableButtons() {
         for (ImageButton imageButton : imageButtons)
             imageButton.setEnabled(false);
